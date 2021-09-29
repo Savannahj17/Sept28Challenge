@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FacebookLibrary\FacebookLibrary.csproj">
+      <Project>{656A3F84-9701-485E-BF4C-CF0C6A6CA99A}</Project>
+      <Name>FacebookLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
